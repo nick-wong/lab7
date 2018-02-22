@@ -10,4 +10,9 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+
+	$(".likeBtn").click(function() {
+		console.log("asdf");
+		ga('send', 'event', 'like', 'click');
+	});
 }
